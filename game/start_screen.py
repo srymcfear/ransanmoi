@@ -38,7 +38,7 @@ class StartScreen:
     
     def _draw_title(self, screen):
         title_surface = create_text_surface(
-            "Snake Game", 
+            "FEAR-Snake Game", 
             self.title_font, 
             WHITE, 
             (0, 0, 0, 128), 
@@ -68,7 +68,7 @@ class StartScreen:
                         controls_surface.get_rect(), border_radius=10)
         
         controls = [
-            ('Controls:', WHITE),
+            ('Controls:', BLUE),
             ('↑ ↓ ← → : Move Snake', BLUE),
             ('P : Pause Game', GREEN),
             ('R : Restart Game', RED)

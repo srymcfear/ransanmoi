@@ -1,6 +1,7 @@
 import os
 import sys
 import config.settings
+import game.game_manager
 
 project_root = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, project_root)
